@@ -69,21 +69,10 @@ void cascadeOp() {
   print(list2);
 }
 
-class A {
-  // constructor
-  A({required this.p, required this.q, required this.r});
 
-  // named constructor
-  A.generateRandomNumbers()
-      : p = 0,
-        q = 0;
 
-  final int p;
-  int? q;
-  late final int r;
-}
-
-void hihi() {
-  A(p: 1, q: 1, r: 2);
-  A.generateRandomNumbers();
-}
+// void hihi() {
+//   A(p: 1, q: 1, r: 2);
+//   A.generateRandomNumbers();
+//   A.fromJson(json: {'p': 1, 'q': 2});
+// }
